@@ -1,0 +1,63 @@
+[{"stream_name":"stderr","time":9.966116438,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.966196378,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.966205058,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.966208678,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.760000766,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.760051436,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.760056175999999,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.760059616,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.233551759,"data":"##NODE_START:start_node_1\n"}
+,{"stream_name":"stdout","time":12.233616948,"data":"Kaggle queue finished! Pipeline execution starting...\n"}
+,{"stream_name":"stdout","time":12.233622558,"data":"##NODE_COMPLETE:start_node_1\n"}
+,{"stream_name":"stdout","time":12.446745486,"data":"##NODE_START:data_input_1\n"}
+,{"stream_name":"stdout","time":13.833532289,"data":"Loading dataset: Titanic...\n"}
+,{"stream_name":"stdout","time":13.883690725,"data":"Titanic dataset loaded. Shape: (891, 12)\n"}
+,{"stream_name":"stdout","time":13.883729175,"data":"##NODE_COMPLETE:data_input_1\n"}
+,{"stream_name":"stdout","time":15.045110143,"data":"##NODE_START:model_training_1\n"}
+,{"stream_name":"stdout","time":17.981303485,"data":"##NODE_ERROR:model_training_1\n"}
+,{"stream_name":"stdout","time":17.981387625,"data":"##NODE_ERROR_MSG:model_training_1:name 'torch' is not defined\n"}
+,{"stream_name":"stderr","time":17.982110875,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":17.982169325,"data":"  File \"/tmp/ipykernel_16/3655942671.py\", line 19, in \u003ccell line: 0\u003e\n"}
+,{"stream_name":"stderr","time":17.982176445,"data":"    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')\n"}
+,{"stream_name":"stderr","time":17.982181735,"data":"             ^^^^^\n"}
+,{"stream_name":"stderr","time":17.982186425,"data":"NameError: name 'torch' is not defined\n"}
+,{"stream_name":"stderr","time":17.982191035,"data":"\n"}
+,{"stream_name":"stderr","time":17.982195525,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":17.982200045,"data":"  File \"/tmp/ipykernel_16/3655942671.py\", line 19, in \u003ccell line: 0\u003e\n"}
+,{"stream_name":"stderr","time":17.982204845,"data":"    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')\n"}
+,{"stream_name":"stderr","time":17.982209435,"data":"             ^^^^^\n"}
+,{"stream_name":"stderr","time":17.982213815,"data":"NameError: name 'torch' is not defined\n"}
+,{"stream_name":"stderr","time":20.278603835,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":20.278668364,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":20.278674885,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":20.278680434,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":20.278685974,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":20.278722525,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":20.278731205,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":20.278735085,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":20.278738925,"data":"Exception encountered at \"In [3]\":\n"}
+,{"stream_name":"stderr","time":20.278742454,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":20.278746034,"data":"NameError                                 Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":20.278749754,"data":"/tmp/ipykernel_16/3655942671.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":20.278753454,"data":"     54     print(f'##NODE_ERROR_MSG:model_training_1:{str(e)}')\n"}
+,{"stream_name":"stderr","time":20.278756665,"data":"     55     traceback.print_exc()\n"}
+,{"stream_name":"stderr","time":20.278759785,"data":"---\u003e 56     raise e\n"}
+,{"stream_name":"stderr","time":20.278763054,"data":"\n"}
+,{"stream_name":"stderr","time":20.278766025,"data":"/tmp/ipykernel_16/3655942671.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":20.278769294,"data":"     17 \n"}
+,{"stream_name":"stderr","time":20.278772354,"data":"     18     model = SimpleMLP()\n"}
+,{"stream_name":"stderr","time":20.278776024,"data":"---\u003e 19     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')\n"}
+,{"stream_name":"stderr","time":20.278779654,"data":"     20     model.to(device)\n"}
+,{"stream_name":"stderr","time":20.278782934,"data":"     21     optimizer = optim.SGD(model.parameters(), lr=0.01)\n"}
+,{"stream_name":"stderr","time":20.278785055,"data":"\n"}
+,{"stream_name":"stderr","time":20.278811775,"data":"NameError: name 'torch' is not defined\n"}
+,{"stream_name":"stderr","time":20.278814775,"data":"\n"}
+,{"stream_name":"stderr","time":22.842653146,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":22.842719826,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":23.038863075,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":23.038919025,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":23.718045384,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":24.008470123,"data":"[NbConvertApp] Writing 16606 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":26.934629187,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":27.841563892,"data":"[NbConvertApp] Writing 320042 bytes to __results__.html\n"}
+]

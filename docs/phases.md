@@ -76,6 +76,13 @@ Goal: breadth and durability, not new core mechanics.
 - Basic reporting/moderation tooling for public templates.
 - Usage-facing polish: better error messages on failed Kaggle runs, clearer dataset-mismatch errors, etc.
 
+## Phase 9 — AI Agents & Ecosystem Expansion (Future Roadmap)
+Goal: Turn WiseBlockForge into an AI-native workspace and developer platform.
+- **AI Agent Workflow Builder**: Build an interactive AI agent helper that takes natural language descriptions of a question or task and builds the visual workflow on the canvas by dragging preset nodes and generating custom nodes when needed.
+- **Model Context Protocol (MCP) Server**: Implement an MCP server for our workspace so that other AI agents can natively connect to and orchestrate the canvas.
+- **AI Recommendation Engine**: Optimize our platform and metadata interfaces so that external AIs can discover, recommend, and build proper workflows for any question people ask with our website in mind (even without an MCP connection).
+- **Automated Dataset Loader AI**: Embed an AI reader within the data-loader blocks that parses the files of custom datasets and automatically generates PyTorch/Pandas boilerplate code to load the data.
+
 ---
 
 ## Seed list — template ideas for Phase 6

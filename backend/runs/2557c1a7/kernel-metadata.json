@@ -1,0 +1,13 @@
+{
+  "id": "v8god01/wiseblockforge-run-2557c1a7",
+  "title": "WiseBlockForge Run 2557c1a7",
+  "code_file": "notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}
